@@ -1,0 +1,87 @@
+.headeer{
+    height: 80px;
+}
+
+.linkk{
+    position: relative;
+    &:hover{
+        color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    }
+    &::after{
+        content: '';
+        transform: scale(0);
+        transition: transform cubic-bezier(0.445, 0.05, 0.55);
+        transition-duration: 250ms;   
+    }
+}
+
+.navi-cont{
+    display: flex;
+    align-items: baseline;
+    padding-top: 24px;
+}
+
+.web{
+    color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+.logo-web{
+    margin-left: 215px;
+}
+
+.studio{
+    color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+.navi-item{
+color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+margin-right: 50px;
+}
+
+.navi-studio--one{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-left: 93px;
+    margin-right: 50px;
+}
+
+.navi-email--two{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-left: 341px;
+    margin-right: 50px;
+}
