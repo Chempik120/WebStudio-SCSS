@@ -16,8 +16,7 @@ margin-bottom: 50px;
 }
 
 .partners-cont{
-    display: flex;
-    justify-content: center;
+    @extend %flex;
 }
 
 .partner{
@@ -27,8 +26,7 @@ flex-shrink: 0;
 border-radius: 4px;
 border: 2px solid #AFB1B8;
 margin-right: 30px;
-display: flex;
-justify-content: center;
+@extend %flex;
 align-items: center;
 }
 

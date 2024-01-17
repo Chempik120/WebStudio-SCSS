@@ -1,6 +1,5 @@
 .h-cont{
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     color: #212121;
 text-align: center;
 font-family: Roboto;
@@ -13,8 +12,7 @@ margin-bottom: 50px;
 }
 
 .img-cont{
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     margin-bottom: 94px;
 }
 
