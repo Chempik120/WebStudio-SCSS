@@ -92,7 +92,7 @@
   letter-spacing: 0.28px;
   margin-right: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .navi-item {
     margin-right: 30px;
   }
@@ -109,7 +109,7 @@
   margin-left: 93px;
   margin-right: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .navi-studio--one {
     margin-left: 30px;
     margin-right: 20px;
@@ -127,7 +127,7 @@
   margin-left: 341px;
   margin-right: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .navi-email--two {
     margin-left: 0px;
     margin-right: 20px;
@@ -200,6 +200,23 @@
   margin-top: 94px;
   padding: 15px;
 }
+@media screen and (max-width: 481px) {
+  .container {
+    display: block;
+  }
+}
+@media screen and (min-width: 482px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 250px);
+  }
+}
+@media screen and (min-width: 1439px) {
+  .container {
+    display: flex;
+  }
+}
 
 .info {
   margin-right: 30px;
@@ -213,6 +230,11 @@
   border-radius: 4px;
   background: #F5F4FA;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 480px) {
+  .before-div {
+    width: 100vw;
+  }
 }
 
 .before-image {
@@ -231,6 +253,13 @@
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 480px) {
+  .heading {
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+  }
+}
 
 .item {
   width: 270px;
@@ -242,6 +271,13 @@
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
+}
+@media screen and (max-width: 480px) {
+  .item {
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+  }
 }
 
 .h-cont {
@@ -288,6 +324,12 @@
   margin-left: 107px;
   margin-right: 107px;
   white-space: nowrap;
+}
+
+@media screen and (max-width: 1439px) {
+  .work-box {
+    display: none;
+  }
 }
 
 .team {
