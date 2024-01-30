@@ -203,6 +203,7 @@
 @media screen and (max-width: 481px) {
   .container {
     display: block;
+    padding: 0px;
   }
 }
 @media screen and (min-width: 482px) {
@@ -333,14 +334,11 @@
 }
 
 .team {
-  height: 648px;
-  flex-shrink: 0;
-  background: rgb(56, 55, 55);
-  background: linear-gradient(141deg, rgb(56, 55, 55) 0%, rgb(33, 33, 33) 51%, rgb(105, 38, 38) 81%);
+  background-color: #FFF;
 }
 
 .team-heading {
-  color: #939090;
+  color: #000000;
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
@@ -348,7 +346,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
-  margin-top: 94px;
+  margin-top: 50px;
 }
 
 .team-img {
@@ -364,9 +362,27 @@
 }
 
 .img-cont {
-  display: flex;
-  justify-content: center;
   margin-bottom: 94px;
+}
+@media screen and (max-width: 481px) {
+  .img-cont {
+    display: block;
+    margin-left: 10vw;
+    padding-bottom: 15px;
+  }
+}
+@media screen and (min-width: 482px) {
+  .img-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 290px);
+    grid-template-rows: repeat(2, 450px);
+    margin-left: 5vw;
+  }
+}
+@media screen and (min-width: 1439px) {
+  .img-cont {
+    display: flex;
+  }
 }
 
 .name {
