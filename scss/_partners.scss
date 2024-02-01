@@ -17,6 +17,20 @@ margin-bottom: 50px;
 
 .partners-cont{
     @extend %flex;
+    @media screen and (max-width:481px) {
+        display: block;
+        
+        padding-bottom: 15px;
+    }
+    @media screen and (min-width:482px) {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat(2, 100px);
+    }
+    @media screen and (min-width:1439px) {
+       display: flex; 
+    }
+    
 }
 
 .partner{
@@ -28,8 +42,11 @@ border: 2px solid #AFB1B8;
 margin-right: 30px;
 @extend %flex;
 align-items: center;
+@media screen and (max-width:481px) {
+    margin-bottom: 20px;
+    margin-left: 70px;
 }
-
+}
 .icon-Logo{
     color: #AFB1B8;
    font-size: 60px;

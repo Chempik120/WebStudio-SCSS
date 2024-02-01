@@ -55,7 +55,7 @@ letter-spacing: 0.78px;
 
 .logo-web{
     margin-left: 215px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1439px) {
         margin-left: 40px;
     }
 }
@@ -127,6 +127,20 @@ margin-right: 50px;
     display: none;
     @media screen and (max-width:767px){
         display: flex;
-        margin-left:90vw;
+        justify-content: end;
+        position: absolute;
+        top: 0;
+        margin-top: 35px;
+        background-color: #fff;
+    }
+}
+
+.adaptive-but-cont{
+    display: none;
+    @media screen and (max-width:767px){
+        display: flex;
+        background-color: #fff;
+        margin-right: 15px;
+        justify-content: end;
     }
 }
