@@ -1,0 +1,82 @@
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+  
+    background-color: #fff;
+  
+    width: 100vw;
+    height: 100vh;
+  
+    transform: translate(0);
+    transition: transform 350ms linear;
+  
+    padding: 20px 30px;
+  }
+  
+  .mobile-menu.is-hidden {
+    transform: translate(100%);
+  }
+  
+  .close-button{
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-left: 85vw;
+  margin-bottom: 15px;
+  background-color: #fff;
+  }
+  
+  .fa-circle-xmark {
+    background-color: #fff;
+    &:hover{
+        color: #2196F3;
+        transition-duration: 300ms;
+    }
+  }
+  
+  .mobile-nav-list {
+  }
+  .mobile-nav-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  
+  .mobile-nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+  
+    color: #212121;
+    &:hover{
+        color: #2196F3;
+        transition-duration: 300ms;
+    }
+  }
+
+  .number-mobile{
+    margin-top: 206px;
+    width: 296px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#2196F3;
+  }
+
+  .email-mobile{
+    margin-top: 32px;
+    width: 231px;
+    height: 28px;
+    font-family: Roboto;
+    font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.02em;
+text-align: left;
+
+  }
