@@ -11,7 +11,7 @@
     transform: translate(0);
     transition: transform 350ms linear;
   
-    padding: 20px 30px;
+    padding: 20px 20px;
   }
   
   .mobile-menu.is-hidden {
@@ -22,7 +22,7 @@
   display: block;
   width: 18px;
   height: 18px;
-  margin-left: 85vw;
+  margin-left: 87vw;
   margin-bottom: 15px;
   background-color: #fff;
   }
@@ -79,4 +79,29 @@ line-height: 28px;
 letter-spacing: 0.02em;
 text-align: left;
 
+  }
+
+
+  .mobile-social-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 64px;
+  }
+
+  .mobile-social-item{
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0.02em;
+text-align: left;
+&:not(:last-child){
+  padding-right: 10px;
+  border-right: 1px solid #21212133;
+}
+
+&:not(:first-child){
+  padding-left: 10px;
+}
   }
