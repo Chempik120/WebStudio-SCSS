@@ -18,9 +18,12 @@ margin-bottom: 50px;
 .partners-cont{
     @extend %flex;
     @media screen and (max-width:481px) {
-        display: block;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;  
         padding-bottom: 15px;
+        margin-right: 50px;
     }
     @media screen and (min-width:482px) {
         display: grid;

@@ -8,6 +8,12 @@
   color: #212121;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .partner, .partners-cont, .social, .social-cont, .img-cont, .h-cont, .before-div, .container, .hero-cont, .menu {
   display: flex;
   justify-content: center;
@@ -498,8 +504,12 @@
 
 @media screen and (max-width: 481px) {
   .partners-cont {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 15px;
+    margin-right: 50px;
   }
 }
 @media screen and (min-width: 482px) {
@@ -786,6 +796,7 @@
   transform: translate(0);
   transition: transform 350ms linear;
   padding: 20px 20px;
+  overflow: scroll;
 }
 
 .mobile-menu.is-hidden {

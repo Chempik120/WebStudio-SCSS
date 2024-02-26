@@ -2,16 +2,13 @@
     position: fixed;
     top: 0;
     right: 0;
-  
     background-color: #fff;
-  
     width: 100vw;
     height: 100vh;
-  
     transform: translate(0);
     transition: transform 350ms linear;
-  
     padding: 20px 20px;
+    overflow: scroll;
   }
   
   .mobile-menu.is-hidden {
